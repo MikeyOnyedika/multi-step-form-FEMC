@@ -56,7 +56,7 @@ export default function Step2() {
   useEffect(() => updatePlanType(), [isChecked]);
 
   return (
-    <div className="w-full flex flex-col gap-4">
+    <div className="w-full flex flex-col gap-4 px-4 py-1">
       <h3 className="font-bold text-2xl text-blue-marine">Select your plan</h3>
       <p className="text-gray-cool">
         You have the option of monthly or yearly billing.
@@ -125,6 +125,7 @@ export default function Step2() {
             className={`w-10 h-5 rounded-full relative flex p-1 bg-blue-marine before:w-3 before:h-3 before:bg-white before:transition-all before:rounded-full items-center ${
               isChecked ? 'before:translate-x-[1.3rem]' : 'before:translate-x-0'
             }`}
+            role="button"
           ></div>
         </label>
         <button

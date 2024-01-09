@@ -41,7 +41,7 @@ export default function Step2() {
   );
 
   return (
-    <div className="w-full flex flex-col gap-4">
+    <div className="w-full flex flex-col gap-4 px-4 py-1">
       <h3 className="font-bold text-2xl text-blue-marine">Pick add-ons</h3>
       <p className="text-gray-cool">
         Add-ons help enhance your gaming experience.

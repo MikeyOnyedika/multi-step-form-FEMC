@@ -1,6 +1,6 @@
 export default function Step1() {
   return (
-    <div className="w-full flex flex-col gap-4">
+    <div className="w-full flex flex-col gap-4 px-4 py-1">
       <h3 className="font-bold text-2xl text-blue-marine">Personal Info</h3>
       <p className="text-gray-cool">
         Please provide your name, email, address, and phone number.
