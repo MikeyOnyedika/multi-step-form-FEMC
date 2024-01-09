@@ -16,3 +16,11 @@ export const formSteps = [
     title: 'summary',
   },
 ];
+
+export const planTypes: {
+  MONTHLY: 'monthly',
+  YEARLY: 'yearly',
+} = {
+  MONTHLY: 'monthly',
+  YEARLY: 'yearly',
+};

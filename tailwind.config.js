@@ -5,6 +5,7 @@ export default {
     backgroundImage: {
       menu: "url('/src/assets/images/bg-sidebar-mobile.svg')",
       'menu-desktop': "url('/src/assets/images/bg-sidebar-desktop.svg')",
+      checked: "url('/src/assets/images/icon-checkmark.svg')"
     },
     colors: {
       blue: {
